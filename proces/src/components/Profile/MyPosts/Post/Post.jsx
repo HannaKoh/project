@@ -5,7 +5,7 @@ const Post = (props) => {
     return (
         <div className={s.item}>
 
-           <img src='https://superbody.pro/user_files/11/avatar/171e984f4e.jpg' />
+           <img src={props.src} />
             {props.message}
             <div>
                 <span>like {props.like_count}</span>
